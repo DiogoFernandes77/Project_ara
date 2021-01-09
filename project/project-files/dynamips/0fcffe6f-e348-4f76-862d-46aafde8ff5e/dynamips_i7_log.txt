@@ -1,0 +1,37 @@
+Jan 09 17:43:58.212 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 17:43:58.212 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 57117.
+Jan 09 17:43:58.222 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 17:43:58.222 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips 
+Jan 09 17:43:58.222 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips
+Jan 09 17:43:58.223 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/d8623dc3-e135-4c65-bf1e-234ae11fc7f2 
+Jan 09 17:43:58.223 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/d8623dc3-e135-4c65-bf1e-234ae11fc7f2
+Jan 09 17:43:58.223 HYPERVISOR: exec_cmd: vm create A_South 6 c3725 
+Jan 09 17:43:58.223 VM: VM A_South created.
+Jan 09 17:43:58.223 HYPERVISOR: exec_cmd: vm set_con_tcp_port A_South 5006 
+Jan 09 17:43:58.224 HYPERVISOR: exec_cmd: c3725 get_mac_addr A_South 
+Jan 09 17:43:58.224 HYPERVISOR: exec_cmd: vm set_disk0 A_South 0 
+Jan 09 17:43:58.224 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 09 17:43:58.224 HYPERVISOR: exec_cmd: vm set_idle_pc A_South 0x60a6a1e0 
+Jan 09 17:43:58.225 HYPERVISOR: exec_cmd: vm set_ios A_South /home/tabuas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Jan 09 17:43:58.225 HYPERVISOR: exec_cmd: c3725 set_mac_addr A_South c206.3878.0000 
+Jan 09 17:43:58.225 HYPERVISOR: exec_cmd: vm set_nvram A_South 256 
+Jan 09 17:43:58.225 HYPERVISOR: exec_cmd: vm set_ram A_South 256 
+Jan 09 17:43:59.146 HYPERVISOR: exec_cmd: nio create_udp udp-6390aa44-d7a2-492b-8b5e-0994c3d5ce72 10010 127.0.0.1 10011 
+Jan 09 17:43:59.363 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_South 0 0 udp-6390aa44-d7a2-492b-8b5e-0994c3d5ce72 
+Jan 09 17:43:59.364 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 09 17:47:37.365 HYPERVISOR: exec_cmd: vm set_ghost_status A_South 2 
+Jan 09 17:47:37.366 HYPERVISOR: exec_cmd: vm set_ghost_file A_South /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-256.ghost 
+Jan 09 17:47:37.366 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 09 17:47:37.368 HYPERVISOR: exec_cmd: vm set_config A_South configs/i6_startup-config.cfg 
+Jan 09 17:47:37.369 HYPERVISOR: exec_cmd: vm start A_South 
+Jan 09 18:13:07.820 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 09 18:13:07.824 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 09 18:14:55.513 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 09 18:14:55.513 HYPERVISOR: exec_cmd: vm stop A_South 
+Jan 09 18:14:55.619 VM: VM A_South shutdown.
+Jan 09 18:14:55.619 HYPERVISOR: exec_cmd: vm extract_config A_South 
+Jan 09 18:14:58.603 HYPERVISOR: exec_cmd: vm set_ghost_status A_South 2 
+Jan 09 18:14:58.604 HYPERVISOR: exec_cmd: vm set_ghost_file A_South /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-256.ghost 
+Jan 09 18:14:58.605 HYPERVISOR: exec_cmd: vm get_status A_South 
+Jan 09 18:14:58.605 HYPERVISOR: exec_cmd: vm set_config A_South configs/i6_startup-config.cfg 
+Jan 09 18:14:58.606 HYPERVISOR: exec_cmd: vm start A_South 

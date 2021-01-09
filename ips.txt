@@ -1,0 +1,36 @@
+10.0.0.0/16
+
+
+Operador A: (10.0.0.0/17)
+	
+	CityCenter Core = 10.0.0.1/24
+	Heywood <-> Core = 10.0.0.2/24
+	A_North <-> Core = 10.0.0.3/24
+	A_South <-> Core = 10.0.0.4/24
+	
+
+	
+
+
+
+
+Operador B: (10.0.128.0/17)
+	
+	Westbrook <-> Core = 10.0.128.1/24
+	SantoDomingo <-> Core = 10.0.128.2/24
+	B_North <-> Core = 10.0.128.3/24
+	B_South <-> Core = 10.0.128.4/24
+	
+	
+	B_North <-> Arasaka Net1 = 10.0.131.0/24
+	 
+	
+	B_South <-> Militech = 10.0.133.0/24
+	B_South <-> Arasaka_S = 10.0.134.0/24
+
+
+
+
+
+
+

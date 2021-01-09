@@ -1,0 +1,48 @@
+Jan 08 21:46:13.284 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 08 21:46:13.284 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 36951.
+Jan 08 21:46:13.294 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 21:46:13.295 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips 
+Jan 08 21:46:13.295 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips
+Jan 08 21:46:13.295 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/0dd15e9c-a00c-47ae-b181-e3015321f963 
+Jan 08 21:46:13.295 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/0dd15e9c-a00c-47ae-b181-e3015321f963
+Jan 08 21:46:13.295 HYPERVISOR: exec_cmd: vm create A_North 5 c3725 
+Jan 08 21:46:13.295 VM: VM A_North created.
+Jan 08 21:46:13.295 HYPERVISOR: exec_cmd: vm set_con_tcp_port A_North 5005 
+Jan 08 21:46:13.295 HYPERVISOR: exec_cmd: c3725 get_mac_addr A_North 
+Jan 08 21:46:13.296 HYPERVISOR: exec_cmd: vm set_disk0 A_North 0 
+Jan 08 21:46:13.296 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 21:46:13.296 HYPERVISOR: exec_cmd: vm set_idle_pc A_North 0x60a6a1e0 
+Jan 08 21:46:13.297 HYPERVISOR: exec_cmd: vm set_ios A_North /home/tabuas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Jan 08 21:46:13.297 HYPERVISOR: exec_cmd: c3725 set_mac_addr A_North c205.3868.0000 
+Jan 08 21:46:13.298 HYPERVISOR: exec_cmd: vm set_nvram A_North 256 
+Jan 08 21:46:13.298 HYPERVISOR: exec_cmd: vm set_ram A_North 256 
+Jan 08 21:46:15.818 HYPERVISOR: exec_cmd: nio create_udp udp-93f11a11-2153-46df-bc76-8ec8ef3fa356 10042 127.0.0.1 10043 
+Jan 08 21:46:16.037 HYPERVISOR: exec_cmd: vm slot_add_nio_binding A_North 0 0 udp-93f11a11-2153-46df-bc76-8ec8ef3fa356 
+Jan 08 21:46:16.044 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 21:54:38.044 HYPERVISOR: exec_cmd: vm set_ghost_status A_North 2 
+Jan 08 21:54:38.045 HYPERVISOR: exec_cmd: vm set_ghost_file A_North /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-256.ghost 
+Jan 08 21:54:38.046 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 21:54:38.047 HYPERVISOR: exec_cmd: vm set_config A_North configs/i5_startup-config.cfg 
+Jan 08 21:54:38.047 HYPERVISOR: exec_cmd: vm start A_North 
+Jan 08 23:21:06.677 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:21:06.678 HYPERVISOR: exec_cmd: vm stop A_North 
+Jan 08 23:21:06.793 VM: VM A_North shutdown.
+Jan 08 23:21:06.794 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:21:48.378 HYPERVISOR: exec_cmd: vm set_ghost_status A_North 2 
+Jan 08 23:21:48.379 HYPERVISOR: exec_cmd: vm set_ghost_file A_North /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-256.ghost 
+Jan 08 23:21:48.379 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:21:48.382 HYPERVISOR: exec_cmd: vm set_config A_North configs/i5_startup-config.cfg 
+Jan 08 23:21:48.383 HYPERVISOR: exec_cmd: vm start A_North 
+Jan 08 23:26:35.589 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:26:35.590 HYPERVISOR: exec_cmd: vm stop A_North 
+Jan 08 23:26:35.693 VM: VM A_North shutdown.
+Jan 08 23:26:35.695 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:26:52.205 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:26:52.206 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:26:52.260 HYPERVISOR: exec_cmd: vm get_status A_North 
+Jan 08 23:26:52.260 HYPERVISOR: exec_cmd: vm extract_config A_North 
+Jan 08 23:26:52.261 HYPERVISOR: exec_cmd: vm delete A_North 
+Jan 08 23:26:52.261 VM: VM A_North destroyed.
+Jan 08 23:26:52.262 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 08 23:26:52.611 HYPERVISOR: Stopped.
+Jan 08 23:26:52.611 GENERAL: reset done.

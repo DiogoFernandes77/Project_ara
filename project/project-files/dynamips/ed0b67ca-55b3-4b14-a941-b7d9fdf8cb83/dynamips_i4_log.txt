@@ -1,0 +1,41 @@
+Jan 09 15:53:13.937 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 15:53:13.937 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 42481.
+Jan 09 15:53:13.948 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 15:53:13.949 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips 
+Jan 09 15:53:13.949 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips
+Jan 09 15:53:13.949 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/ed0b67ca-55b3-4b14-a941-b7d9fdf8cb83 
+Jan 09 15:53:13.949 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/ed0b67ca-55b3-4b14-a941-b7d9fdf8cb83
+Jan 09 15:53:13.949 HYPERVISOR: exec_cmd: vm create SantoDomingo 4 c7200 
+Jan 09 15:53:13.951 VM: VM SantoDomingo created.
+Jan 09 15:53:13.951 HYPERVISOR: exec_cmd: vm set_con_tcp_port SantoDomingo 5003 
+Jan 09 15:53:13.951 HYPERVISOR: exec_cmd: c7200 get_mac_addr SantoDomingo 
+Jan 09 15:53:13.952 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:13.952 HYPERVISOR: exec_cmd: vm slot_add_binding SantoDomingo 0 0 C7200-IO-FE 
+Jan 09 15:53:13.952 HYPERVISOR: exec_cmd: vm set_disk0 SantoDomingo 0 
+Jan 09 15:53:13.952 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:13.952 HYPERVISOR: exec_cmd: vm set_idle_pc SantoDomingo 0x60608040 
+Jan 09 15:53:13.953 HYPERVISOR: exec_cmd: vm set_ios SantoDomingo /home/tabuas/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 09 15:53:13.953 HYPERVISOR: exec_cmd: c7200 set_mac_addr SantoDomingo ca04.382b.0000 
+Jan 09 15:53:13.954 HYPERVISOR: exec_cmd: vm set_nvram SantoDomingo 512 
+Jan 09 15:53:13.954 HYPERVISOR: exec_cmd: vm set_ram SantoDomingo 512 
+Jan 09 15:53:13.954 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:13.955 HYPERVISOR: exec_cmd: vm slot_remove_binding SantoDomingo 0 0 
+Jan 09 15:53:13.955 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:13.955 HYPERVISOR: exec_cmd: vm slot_add_binding SantoDomingo 0 0 C7200-IO-2FE 
+Jan 09 15:53:13.955 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:13.956 HYPERVISOR: exec_cmd: vm slot_add_binding SantoDomingo 1 0 PA-2FE-TX 
+Jan 09 15:53:15.692 HYPERVISOR: exec_cmd: nio create_udp udp-254a9fa4-0482-4276-bd70-0264b6f28217 10018 127.0.0.1 10019 
+Jan 09 15:53:15.907 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SantoDomingo 0 0 udp-254a9fa4-0482-4276-bd70-0264b6f28217 
+Jan 09 15:53:15.908 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:53:17.361 HYPERVISOR: exec_cmd: nio create_udp udp-84b9b505-5d46-43ce-b4a5-7484a7926cd2 10042 127.0.0.1 10043 
+Jan 09 15:53:17.362 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SantoDomingo 0 1 udp-84b9b505-5d46-43ce-b4a5-7484a7926cd2 
+Jan 09 15:53:17.363 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:54:22.327 HYPERVISOR: exec_cmd: vm set_ghost_status SantoDomingo 2 
+Jan 09 15:54:22.329 HYPERVISOR: exec_cmd: vm set_ghost_file SantoDomingo /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jan 09 15:54:22.331 HYPERVISOR: exec_cmd: vm get_status SantoDomingo 
+Jan 09 15:54:22.334 HYPERVISOR: exec_cmd: vm set_config SantoDomingo configs/i4_startup-config.cfg configs/i4_private-config.cfg 
+Jan 09 15:54:22.336 HYPERVISOR: exec_cmd: vm start SantoDomingo 
+Jan 09 15:54:52.579 HYPERVISOR: exec_cmd: vm extract_config SantoDomingo 
+Jan 09 15:55:22.580 HYPERVISOR: exec_cmd: vm extract_config SantoDomingo 
+Jan 09 16:11:22.631 HYPERVISOR: exec_cmd: vm extract_config SantoDomingo 
+Jan 09 16:15:22.647 HYPERVISOR: exec_cmd: vm extract_config SantoDomingo 

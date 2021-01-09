@@ -1,0 +1,45 @@
+Jan 09 15:53:13.837 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 15:53:13.837 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 49001.
+Jan 09 15:53:13.847 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 15:53:13.847 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips 
+Jan 09 15:53:13.847 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips
+Jan 09 15:53:13.848 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/fc57ab34-9ef2-4051-bdd4-edb76128a5fd 
+Jan 09 15:53:13.848 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/fc57ab34-9ef2-4051-bdd4-edb76128a5fd
+Jan 09 15:53:13.848 HYPERVISOR: exec_cmd: vm create CityCenter 1 c7200 
+Jan 09 15:53:13.849 VM: VM CityCenter created.
+Jan 09 15:53:13.850 HYPERVISOR: exec_cmd: vm set_con_tcp_port CityCenter 5000 
+Jan 09 15:53:13.850 HYPERVISOR: exec_cmd: c7200 get_mac_addr CityCenter 
+Jan 09 15:53:13.850 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:13.850 HYPERVISOR: exec_cmd: vm slot_add_binding CityCenter 0 0 C7200-IO-FE 
+Jan 09 15:53:13.851 HYPERVISOR: exec_cmd: vm set_disk0 CityCenter 0 
+Jan 09 15:53:13.851 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:13.851 HYPERVISOR: exec_cmd: vm set_idle_pc CityCenter 0x60608040 
+Jan 09 15:53:13.852 HYPERVISOR: exec_cmd: vm set_ios CityCenter /home/tabuas/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jan 09 15:53:13.852 HYPERVISOR: exec_cmd: c7200 set_mac_addr CityCenter ca01.37fb.0000 
+Jan 09 15:53:13.852 HYPERVISOR: exec_cmd: vm set_nvram CityCenter 512 
+Jan 09 15:53:13.852 HYPERVISOR: exec_cmd: vm set_ram CityCenter 512 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm slot_remove_binding CityCenter 0 0 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm slot_add_binding CityCenter 0 0 C7200-IO-2FE 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:13.853 HYPERVISOR: exec_cmd: vm slot_add_binding CityCenter 1 0 PA-2FE-TX 
+Jan 09 15:53:14.357 HYPERVISOR: exec_cmd: nio create_udp udp-18a7cbd3-95e9-43b4-9e3b-987c338240f5 10002 127.0.0.1 10003 
+Jan 09 15:53:14.589 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CityCenter 0 0 udp-18a7cbd3-95e9-43b4-9e3b-987c338240f5 
+Jan 09 15:53:14.590 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:17.020 HYPERVISOR: exec_cmd: nio create_udp udp-1b0f683c-4c66-4b07-8752-6e241394e8d7 10034 127.0.0.1 10035 
+Jan 09 15:53:17.023 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CityCenter 1 0 udp-1b0f683c-4c66-4b07-8752-6e241394e8d7 
+Jan 09 15:53:17.025 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:53:17.446 HYPERVISOR: exec_cmd: nio create_udp udp-a733116f-ea92-44d2-9d11-58987b4c79e5 10046 127.0.0.1 10047 
+Jan 09 15:53:17.447 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CityCenter 0 1 udp-a733116f-ea92-44d2-9d11-58987b4c79e5 
+Jan 09 15:53:17.448 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:54:22.055 HYPERVISOR: exec_cmd: vm set_ghost_status CityCenter 2 
+Jan 09 15:54:22.055 HYPERVISOR: exec_cmd: vm set_ghost_file CityCenter /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jan 09 15:54:22.056 HYPERVISOR: exec_cmd: vm get_status CityCenter 
+Jan 09 15:54:22.057 HYPERVISOR: exec_cmd: vm set_config CityCenter configs/i1_startup-config.cfg configs/i1_private-config.cfg 
+Jan 09 15:54:22.058 HYPERVISOR: exec_cmd: vm start CityCenter 
+Jan 09 15:54:52.327 HYPERVISOR: exec_cmd: vm extract_config CityCenter 
+Jan 09 15:55:22.317 HYPERVISOR: exec_cmd: vm extract_config CityCenter 
+Jan 09 16:12:04.713 HYPERVISOR: exec_cmd: nio bind_filter udp-a733116f-ea92-44d2-9d11-58987b4c79e5 2 capture 
+Jan 09 16:12:04.713 HYPERVISOR: exec_cmd: nio setup_filter udp-a733116f-ea92-44d2-9d11-58987b4c79e5 2 en10mb /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/captures/CityCenter_FastEthernet01_to_Westbrook_FastEthernet01.pcap 
+Jan 09 16:52:52.629 HYPERVISOR: exec_cmd: vm extract_config CityCenter 

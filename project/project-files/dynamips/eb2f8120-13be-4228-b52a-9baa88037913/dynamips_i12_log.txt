@@ -1,0 +1,29 @@
+Jan 09 20:53:20.272 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 09 20:53:20.273 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 48615.
+Jan 09 20:53:20.283 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 09 20:53:20.283 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips 
+Jan 09 20:53:20.283 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips
+Jan 09 20:53:20.283 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/431336ed-89e4-4391-bfa7-4e07aed2e787 
+Jan 09 20:53:20.283 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/project/project-files/dynamips/431336ed-89e4-4391-bfa7-4e07aed2e787
+Jan 09 20:53:20.283 HYPERVISOR: exec_cmd: vm create R1 14 c3725 
+Jan 09 20:53:20.283 VM: VM R1 created.
+Jan 09 20:53:20.283 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5015 
+Jan 09 20:53:20.284 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Jan 09 20:53:20.284 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 09 20:53:20.284 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 20:53:20.284 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60a6a1e0 
+Jan 09 20:53:20.285 HYPERVISOR: exec_cmd: vm set_ios R1 /home/tabuas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Jan 09 20:53:20.285 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c20e.186f.0000 
+Jan 09 20:53:20.285 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Jan 09 20:53:20.285 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Jan 09 20:53:20.286 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 20:53:20.286 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 NM-1FE-TX 
+Jan 09 20:53:31.277 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 20:53:31.279 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jan 09 20:53:31.302 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 09 20:53:31.304 HYPERVISOR: exec_cmd: vm extract_config R1 
+Jan 09 20:53:31.307 HYPERVISOR: exec_cmd: vm delete R1 
+Jan 09 20:53:31.307 VM: VM R1 destroyed.
+Jan 09 20:53:31.309 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 20:53:31.794 HYPERVISOR: Stopped.
+Jan 09 20:53:31.794 GENERAL: reset done.
