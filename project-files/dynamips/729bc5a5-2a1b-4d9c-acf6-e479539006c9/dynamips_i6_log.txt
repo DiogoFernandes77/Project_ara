@@ -1,0 +1,45 @@
+Jan 11 21:14:31.184 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 11 21:14:31.184 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47657.
+Jan 11 21:14:31.194 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 11 21:14:31.195 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips 
+Jan 11 21:14:31.195 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips
+Jan 11 21:14:31.195 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/eb2f8120-13be-4228-b52a-9baa88037913 
+Jan 11 21:14:31.195 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/eb2f8120-13be-4228-b52a-9baa88037913
+Jan 11 21:14:31.195 HYPERVISOR: exec_cmd: vm create Militech 12 c3725 
+Jan 11 21:14:31.195 VM: VM Militech created.
+Jan 11 21:14:31.195 HYPERVISOR: exec_cmd: vm set_con_tcp_port Militech 5013 
+Jan 11 21:14:31.196 HYPERVISOR: exec_cmd: c3725 get_mac_addr Militech 
+Jan 11 21:14:31.196 HYPERVISOR: exec_cmd: vm set_disk0 Militech 0 
+Jan 11 21:14:31.196 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:31.196 HYPERVISOR: exec_cmd: vm set_idle_pc Militech 0x60a6a1e0 
+Jan 11 21:14:31.197 HYPERVISOR: exec_cmd: vm set_ios Militech /home/tabuas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Jan 11 21:14:31.197 HYPERVISOR: exec_cmd: c3725 set_mac_addr Militech c20c.19cf.0000 
+Jan 11 21:14:31.198 HYPERVISOR: exec_cmd: vm set_nvram Militech 256 
+Jan 11 21:14:31.198 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:31.198 HYPERVISOR: exec_cmd: vm slot_add_binding Militech 1 0 NM-1FE-TX 
+Jan 11 21:14:31.199 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:31.199 HYPERVISOR: exec_cmd: vm slot_add_binding Militech 2 0 NM-1FE-TX 
+Jan 11 21:14:33.738 HYPERVISOR: exec_cmd: nio create_udp udp-557839cc-430e-4ccb-8946-c74730c17be1 10042 127.0.0.1 10043 
+Jan 11 21:14:33.952 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Militech 0 1 udp-557839cc-430e-4ccb-8946-c74730c17be1 
+Jan 11 21:14:33.954 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:36.278 HYPERVISOR: exec_cmd: nio create_udp udp-6f0b3e53-1301-483b-9a8a-307bf4e51500 10092 127.0.0.1 10093 
+Jan 11 21:14:36.279 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Militech 1 0 udp-6f0b3e53-1301-483b-9a8a-307bf4e51500 
+Jan 11 21:14:36.280 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:40.249 HYPERVISOR: exec_cmd: vm set_ghost_status Militech 2 
+Jan 11 21:14:40.250 HYPERVISOR: exec_cmd: vm set_ghost_file Militech /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-128.ghost 
+Jan 11 21:14:40.251 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:14:40.254 HYPERVISOR: exec_cmd: vm set_config Militech configs/i12_startup-config.cfg 
+Jan 11 21:14:40.254 HYPERVISOR: exec_cmd: vm start Militech 
+Jan 11 21:18:00.220 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:18:00.221 HYPERVISOR: exec_cmd: vm stop Militech 
+Jan 11 21:18:00.329 VM: VM Militech shutdown.
+Jan 11 21:18:00.330 HYPERVISOR: exec_cmd: vm extract_config Militech 
+Jan 11 21:18:15.013 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:18:15.014 HYPERVISOR: exec_cmd: vm extract_config Militech 
+Jan 11 21:18:15.548 HYPERVISOR: exec_cmd: vm get_status Militech 
+Jan 11 21:18:15.549 HYPERVISOR: exec_cmd: vm extract_config Militech 
+Jan 11 21:18:15.550 HYPERVISOR: exec_cmd: vm delete Militech 
+Jan 11 21:18:15.550 VM: VM Militech destroyed.
+Jan 11 21:18:15.551 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 11 21:18:15.884 HYPERVISOR: Stopped.
+Jan 11 21:18:15.884 GENERAL: reset done.

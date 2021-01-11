@@ -1,0 +1,22 @@
+Jan 11 21:14:31.002 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 11 21:14:31.002 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47185.
+Jan 11 21:14:31.005 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 11 21:14:31.005 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips 
+Jan 11 21:14:31.005 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips
+Jan 11 21:14:31.005 HYPERVISOR: exec_cmd: ethsw create A's_core 
+Jan 11 21:14:32.669 HYPERVISOR: exec_cmd: nio create_udp udp-dd484e1f-ab17-46ee-bfcb-bdbb726e9e10 10014 127.0.0.1 10015 
+Jan 11 21:14:32.669 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-dd484e1f-ab17-46ee-bfcb-bdbb726e9e10 
+Jan 11 21:14:32.670 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-dd484e1f-ab17-46ee-bfcb-bdbb726e9e10 1 
+Jan 11 21:14:32.970 HYPERVISOR: exec_cmd: nio create_udp udp-cac13501-edaa-470a-a78c-24e8d3e09e1e 10019 127.0.0.1 10018 
+Jan 11 21:14:32.970 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-cac13501-edaa-470a-a78c-24e8d3e09e1e 
+Jan 11 21:14:32.973 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-cac13501-edaa-470a-a78c-24e8d3e09e1e 1 
+Jan 11 21:14:35.245 HYPERVISOR: exec_cmd: nio create_udp udp-74553318-0fe0-4856-b9cc-b8a1c6e40a96 10061 127.0.0.1 10060 
+Jan 11 21:14:35.245 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-74553318-0fe0-4856-b9cc-b8a1c6e40a96 
+Jan 11 21:14:35.248 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-74553318-0fe0-4856-b9cc-b8a1c6e40a96 1 
+Jan 11 21:14:35.874 HYPERVISOR: exec_cmd: nio create_udp udp-c0dc9bbe-51dd-435d-850e-db461524bfb5 10071 127.0.0.1 10070 
+Jan 11 21:14:35.874 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-c0dc9bbe-51dd-435d-850e-db461524bfb5 
+Jan 11 21:14:35.891 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-c0dc9bbe-51dd-435d-850e-db461524bfb5 1 
+Jan 11 21:18:15.072 HYPERVISOR: exec_cmd: ethsw delete A's_core 
+Jan 11 21:18:15.148 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 11 21:18:15.190 HYPERVISOR: Stopped.
+Jan 11 21:18:15.190 GENERAL: reset done.

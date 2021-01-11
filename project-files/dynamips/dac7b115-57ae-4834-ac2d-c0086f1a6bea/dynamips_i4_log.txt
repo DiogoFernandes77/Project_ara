@@ -1,0 +1,48 @@
+Jan 11 21:14:31.127 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 11 21:14:31.127 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59925.
+Jan 11 21:14:31.137 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 11 21:14:31.137 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips 
+Jan 11 21:14:31.137 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips
+Jan 11 21:14:31.138 HYPERVISOR: exec_cmd: hypervisor working_dir /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/f1df65b3-8b8d-49d7-b2c3-199636993f74 
+Jan 11 21:14:31.138 GENERAL: working_dir=/home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/f1df65b3-8b8d-49d7-b2c3-199636993f74
+Jan 11 21:14:31.138 HYPERVISOR: exec_cmd: vm create Arasaka_N 11 c3725 
+Jan 11 21:14:31.138 VM: VM Arasaka_N created.
+Jan 11 21:14:31.138 HYPERVISOR: exec_cmd: vm set_con_tcp_port Arasaka_N 5012 
+Jan 11 21:14:31.138 HYPERVISOR: exec_cmd: c3725 get_mac_addr Arasaka_N 
+Jan 11 21:14:31.138 HYPERVISOR: exec_cmd: vm set_disk0 Arasaka_N 0 
+Jan 11 21:14:31.139 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:31.139 HYPERVISOR: exec_cmd: vm set_idle_pc Arasaka_N 0x60a6a1e0 
+Jan 11 21:14:31.139 HYPERVISOR: exec_cmd: vm set_ios Arasaka_N /home/tabuas/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.bin 
+Jan 11 21:14:31.140 HYPERVISOR: exec_cmd: c3725 set_mac_addr Arasaka_N c20b.1994.0000 
+Jan 11 21:14:31.140 HYPERVISOR: exec_cmd: vm set_nvram Arasaka_N 256 
+Jan 11 21:14:31.140 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:31.140 HYPERVISOR: exec_cmd: vm slot_add_binding Arasaka_N 1 0 NM-1FE-TX 
+Jan 11 21:14:31.141 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:31.141 HYPERVISOR: exec_cmd: vm slot_add_binding Arasaka_N 2 0 NM-1FE-TX 
+Jan 11 21:14:34.690 HYPERVISOR: exec_cmd: nio create_udp udp-3ca5c626-3306-4587-9c6a-4f5befce0f02 10058 127.0.0.1 10059 
+Jan 11 21:14:34.906 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Arasaka_N 0 1 udp-3ca5c626-3306-4587-9c6a-4f5befce0f02 
+Jan 11 21:14:34.907 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:35.956 HYPERVISOR: exec_cmd: nio create_udp udp-ebf70bae-7e8a-47d2-a8ba-5ada24216f0b 10076 127.0.0.1 10077 
+Jan 11 21:14:35.957 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Arasaka_N 1 0 udp-ebf70bae-7e8a-47d2-a8ba-5ada24216f0b 
+Jan 11 21:14:35.957 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:36.022 HYPERVISOR: exec_cmd: nio create_udp udp-a5f2efb5-3c08-4a34-8242-a4ee34b8cad1 10080 127.0.0.1 10081 
+Jan 11 21:14:36.023 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Arasaka_N 2 0 udp-a5f2efb5-3c08-4a34-8242-a4ee34b8cad1 
+Jan 11 21:14:36.024 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:39.994 HYPERVISOR: exec_cmd: vm set_ghost_status Arasaka_N 2 
+Jan 11 21:14:39.996 HYPERVISOR: exec_cmd: vm set_ghost_file Arasaka_N /home/tabuas/Desktop/uni/4ano/ARA/Projeto Ara/Project_ara/Project_ara/project-files/dynamips/c3725-advipservicesk9-mz.124-21.bin-128.ghost 
+Jan 11 21:14:39.997 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:14:39.998 HYPERVISOR: exec_cmd: vm set_config Arasaka_N configs/i11_startup-config.cfg 
+Jan 11 21:14:40.000 HYPERVISOR: exec_cmd: vm start Arasaka_N 
+Jan 11 21:18:00.120 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:18:00.121 HYPERVISOR: exec_cmd: vm stop Arasaka_N 
+Jan 11 21:18:00.259 VM: VM Arasaka_N shutdown.
+Jan 11 21:18:00.261 HYPERVISOR: exec_cmd: vm extract_config Arasaka_N 
+Jan 11 21:18:15.011 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:18:15.012 HYPERVISOR: exec_cmd: vm extract_config Arasaka_N 
+Jan 11 21:18:15.512 HYPERVISOR: exec_cmd: vm get_status Arasaka_N 
+Jan 11 21:18:15.512 HYPERVISOR: exec_cmd: vm extract_config Arasaka_N 
+Jan 11 21:18:15.513 HYPERVISOR: exec_cmd: vm delete Arasaka_N 
+Jan 11 21:18:15.513 VM: VM Arasaka_N destroyed.
+Jan 11 21:18:15.514 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 11 21:18:15.828 HYPERVISOR: Stopped.
+Jan 11 21:18:15.828 GENERAL: reset done.
