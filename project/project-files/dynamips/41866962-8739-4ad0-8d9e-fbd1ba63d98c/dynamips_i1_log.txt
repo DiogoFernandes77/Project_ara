@@ -1,0 +1,18 @@
+Jan 10 14:49:43.847 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 10 14:49:43.847 HYPERVISOR: Started on IP = localhost, TCP port = 49985.
+Jan 10 14:49:43.851 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 10 14:49:43.852 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedro/Desktop/ARA/Project_ara/project/project-files/dynamips 
+Jan 10 14:49:43.852 GENERAL: working_dir=/home/pedro/Desktop/ARA/Project_ara/project/project-files/dynamips
+Jan 10 14:49:43.852 HYPERVISOR: exec_cmd: ethsw create A's_core 
+Jan 10 14:49:45.946 HYPERVISOR: exec_cmd: nio create_udp udp-1188f822-c775-444e-9546-81fd3a08a4c1 10014 127.0.0.1 10015 
+Jan 10 14:49:45.946 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-1188f822-c775-444e-9546-81fd3a08a4c1 
+Jan 10 14:49:45.951 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-1188f822-c775-444e-9546-81fd3a08a4c1 1 
+Jan 10 14:49:46.355 HYPERVISOR: exec_cmd: nio create_udp udp-ff0a1f4e-5053-43ef-ba09-a74af0d24474 10019 127.0.0.1 10018 
+Jan 10 14:49:46.355 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-ff0a1f4e-5053-43ef-ba09-a74af0d24474 
+Jan 10 14:49:46.373 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-ff0a1f4e-5053-43ef-ba09-a74af0d24474 1 
+Jan 10 14:49:49.224 HYPERVISOR: exec_cmd: nio create_udp udp-32e6eabd-5b9c-49d3-b401-c7229aecb5c0 10061 127.0.0.1 10060 
+Jan 10 14:49:49.224 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-32e6eabd-5b9c-49d3-b401-c7229aecb5c0 
+Jan 10 14:49:49.245 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-32e6eabd-5b9c-49d3-b401-c7229aecb5c0 1 
+Jan 10 14:49:50.011 HYPERVISOR: exec_cmd: nio create_udp udp-fddb7e02-43ed-449b-bc88-d5e8090e1fc9 10071 127.0.0.1 10070 
+Jan 10 14:49:50.012 HYPERVISOR: exec_cmd: ethsw add_nio A's_core udp-fddb7e02-43ed-449b-bc88-d5e8090e1fc9 
+Jan 10 14:49:50.028 HYPERVISOR: exec_cmd: ethsw set_access_port A's_core udp-fddb7e02-43ed-449b-bc88-d5e8090e1fc9 1 

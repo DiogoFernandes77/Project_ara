@@ -9,10 +9,6 @@ Operador A: (10.0.0.0/17)
 	A_South <-> Core = 10.0.0.4/24
 	
 
-	
-
-
-
 
 Operador B: (10.0.128.0/17)
 	
@@ -29,7 +25,7 @@ Operador B: (10.0.128.0/17)
 	B_South <-> Arasaka_S = 10.0.134.0/24
 
 
-
+The image c7200-adventerprisek9-mz.151-4.M2.image
 
 
 
