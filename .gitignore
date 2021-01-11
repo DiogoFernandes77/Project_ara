@@ -1,0 +1,8 @@
+
+!/project/project-files
+/project/project-files/*
+!/project/project-files/dynamips
+!/project/project-files/vpcs
+/project/project-files/dynamips/**/*
+!/project/project-files/dynamips/**/configs
+/project/project-files/vpcs/**/*
