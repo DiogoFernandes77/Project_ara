@@ -42,7 +42,7 @@
                 "svg": "<svg width=\"514\" height=\"634\"><rect width=\"514\" height=\"634\" fill=\"#e9b96e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
                 "x": 72,
                 "y": -349,
-                "z": 0
+                "z": -1
             },
             {
                 "drawing_id": "fe4256fc-7d15-4846-b4eb-bbd46f69de19",
@@ -170,8 +170,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": -5,
-                            "y": 12
+                            "x": -14,
+                            "y": 4
                         },
                         "node_id": "70642ee3-c8b5-46ab-a1a9-d86e7a98c19f",
                         "port_number": 0
@@ -519,6 +519,68 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "bdfa83ab-d699-4648-8876-888a2305c4ba",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/0",
+                            "x": 5,
+                            "y": -7
+                        },
+                        "node_id": "f1df65b3-8b8d-49d7-b2c3-199636993f74",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 62,
+                            "y": 45
+                        },
+                        "node_id": "c4a0de33-00c6-4357-a2f8-97596cab3dd9",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "432b971d-d065-4345-bbfc-e3ee50417638",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 51,
+                            "y": -13
+                        },
+                        "node_id": "f1df65b3-8b8d-49d7-b2c3-199636993f74",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 16,
+                            "y": 51
+                        },
+                        "node_id": "fcda6843-b215-455e-ae94-f8a84ccb2165",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -735,8 +797,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
-                "x": -22,
-                "y": -241,
+                "x": -41,
+                "y": -432,
                 "z": 1
             },
             {
@@ -963,8 +1025,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
-                "x": -537,
-                "y": -254,
+                "x": -539,
+                "y": -255,
                 "z": 1
             },
             {
@@ -1033,7 +1095,7 @@
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
                 "x": 39,
-                "y": -96,
+                "y": -95,
                 "z": 1
             },
             {
@@ -1102,7 +1164,7 @@
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
                 "x": 36,
-                "y": 14,
+                "y": 9,
                 "z": 1
             },
             {
@@ -1170,8 +1232,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
-                "x": -132,
-                "y": 18,
+                "x": -124,
+                "y": 10,
                 "z": 1
             },
             {
@@ -1239,8 +1301,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
-                "x": -121,
-                "y": -94,
+                "x": -122,
+                "y": -98,
                 "z": 1
             },
             {
@@ -1635,6 +1697,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.16",
+    "version": "2.2.17",
     "zoom": 71
 }
