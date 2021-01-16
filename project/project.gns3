@@ -23,7 +23,7 @@
                 "rotation": 0,
                 "svg": "<svg width=\"704\" height=\"797\"><rect width=\"704\" height=\"797\" fill=\"#e9b96e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
                 "x": -792,
-                "y": -395,
+                "y": -392,
                 "z": 0
             },
             {
@@ -40,8 +40,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"654\" height=\"794\"><rect width=\"654\" height=\"794\" fill=\"#e9b96e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 78,
-                "y": -392,
+                "x": 85,
+                "y": -384,
                 "z": -1
             },
             {
@@ -130,8 +130,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.128.3</text></svg>",
-                "x": 295,
-                "y": -57,
+                "x": 286,
+                "y": -62,
                 "z": 2
             },
             {
@@ -139,8 +139,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.128.4</text></svg>",
-                "x": 301,
-                "y": 31,
+                "x": 229,
+                "y": 76,
                 "z": 2
             },
             {
@@ -211,15 +211,15 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"117\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.2/30</text></svg>",
-                "x": 382,
-                "y": -121,
+                "x": 372,
+                "y": -99,
                 "z": 2
             },
             {
                 "drawing_id": "f6b136a3-4c06-44be-9b75-668009f06da9",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.1.5/32</text></svg>",
+                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.1.5/30</text></svg>",
                 "x": -599,
                 "y": -209,
                 "z": 2
@@ -228,7 +228,7 @@
                 "drawing_id": "785eb2b8-5616-42f0-b415-dca6a1e35196",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.1.6/32</text></svg>",
+                "svg": "<svg width=\"99\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.1.6/30</text></svg>",
                 "x": -537,
                 "y": -128,
                 "z": 2
@@ -249,6 +249,42 @@
                 "svg": "<svg width=\"222\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">MiliData1&lt;-193.136.201.1/25</text></svg>",
                 "x": -758,
                 "y": -255,
+                "z": 2
+            },
+            {
+                "drawing_id": "8f614d51-27ad-4026-8415-c1a7a776beac",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"117\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.6/30</text></svg>",
+                "x": 393,
+                "y": 81,
+                "z": 2
+            },
+            {
+                "drawing_id": "311930e4-0f8d-464c-b406-1d6c4fc35dbe",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"117\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.5/30</text></svg>",
+                "x": 383,
+                "y": 150,
+                "z": 2
+            },
+            {
+                "drawing_id": "00a0b1d1-8da8-4354-8fbe-447ea8487a48",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"135\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">193.136.1.129/25</text></svg>",
+                "x": 349,
+                "y": 191,
+                "z": 2
+            },
+            {
+                "drawing_id": "4b3afcc9-f3b7-4c87-9d83-6181f72d16fd",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"135\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">193.136.2.129/25</text></svg>",
+                "x": 581,
+                "y": 185,
                 "z": 2
             }
         ],
@@ -1435,8 +1471,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "Militech_N",
-                    "x": -34,
-                    "y": -49
+                    "x": 67,
+                    "y": 18
                 },
                 "locked": false,
                 "name": "Militech_N",
@@ -1545,7 +1581,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
-                "x": 39,
+                "x": 40,
                 "y": -95,
                 "z": 1
             },
@@ -1867,7 +1903,7 @@
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
                 "x": 300,
-                "y": -125,
+                "y": -123,
                 "z": 1
             },
             {
@@ -2380,8 +2416,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 396,
-                "y": 242,
+                "x": 388,
+                "y": 263,
                 "z": 1
             },
             {
@@ -2460,8 +2496,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 521,
-                "y": 247,
+                "x": 564,
+                "y": 249,
                 "z": 1
             },
             {
@@ -2584,6 +2620,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.17",
+    "version": "2.2.16",
     "zoom": 71
 }
