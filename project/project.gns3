@@ -973,37 +973,6 @@
             },
             {
                 "filters": {},
-                "link_id": "c9cda875-4a12-4d67-bb00-36b38dd5adc6",
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e1",
-                            "x": -3,
-                            "y": 5
-                        },
-                        "node_id": "c4a0de33-00c6-4357-a2f8-97596cab3dd9",
-                        "port_number": 1
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 71,
-                            "y": 40
-                        },
-                        "node_id": "a45e867e-51db-4279-8acf-a49658b9342b",
-                        "port_number": 0
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "89515c51-736a-49ae-848b-0e6331dd0380",
                 "nodes": [
                     {
@@ -1060,6 +1029,130 @@
                         },
                         "node_id": "8ce2738c-17d1-4423-b2e2-d46db8725f04",
                         "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "1af72688-0b3a-4720-95d0-6807bd3fb88c",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 72,
+                            "y": 60
+                        },
+                        "node_id": "0e1900ed-11f1-4833-8a81-0426d35fa2f6",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 1,
+                            "y": -2
+                        },
+                        "node_id": "df99a04a-a531-4c61-9b72-db2bd40116c1",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "c72dece7-7883-4598-a927-62fd37179813",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 71,
+                            "y": 38
+                        },
+                        "node_id": "a1341c93-028e-4948-a83c-f43cb07069ac",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": -3,
+                            "y": 6
+                        },
+                        "node_id": "c4a0de33-00c6-4357-a2f8-97596cab3dd9",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "baea60a5-1021-4eca-b93e-4a925f4bc39d",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 34,
+                            "y": -10
+                        },
+                        "node_id": "be4c3798-f41c-433c-ad6b-2c4c42888ce3",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e1",
+                            "x": 33,
+                            "y": 55
+                        },
+                        "node_id": "8df78cee-2480-4848-9eac-433132fbc81c",
+                        "port_number": 1
+                    }
+                ],
+                "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "6410108f-04fc-443a-95f1-0c9256cbcb10",
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 34,
+                            "y": -10
+                        },
+                        "node_id": "83bd650d-2222-44d7-92b5-60945580297c",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f0/1",
+                            "x": 31,
+                            "y": 61
+                        },
+                        "node_id": "729bc5a5-2a1b-4d9c-acf6-e479539006c9",
+                        "port_number": 1
                     }
                 ],
                 "suspend": false
@@ -2531,35 +2624,6 @@
             },
             {
                 "compute_id": "local",
-                "console": 5023,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ArasakaVoIPB",
-                    "x": -22,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "ArasakaVoIPB",
-                "node_id": "a45e867e-51db-4279-8acf-a49658b9342b",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": 208,
-                "y": -362,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
                 "console": 5025,
                 "console_auto_start": false,
                 "console_type": "telnet",
@@ -2615,11 +2679,167 @@
                 "x": 629,
                 "y": -364,
                 "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Proxy1",
+                    "x": 3,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Proxy1",
+                "node_id": "0e1900ed-11f1-4833-8a81-0426d35fa2f6",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "AsteriskDebian"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "808ebcba-70b5-435c-b920-1eaf60cea6ad",
+                "width": 65,
+                "x": 126,
+                "y": -265,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Linphone_Debian_x68-1",
+                    "x": -57,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Linphone_Debian_x68-1",
+                "node_id": "a1341c93-028e-4948-a83c-f43cb07069ac",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "Linphone_Debian_x68"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "3ea2b0c1-273c-4b52-a1fa-dbd3a15b1269",
+                "width": 65,
+                "x": 213,
+                "y": -375,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Linphone_Debian_x68Clone-1",
+                    "x": -78,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Linphone_Debian_x68Clone-1",
+                "node_id": "be4c3798-f41c-433c-ad6b-2c4c42888ce3",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "Linphone_Debian_x68 Clone"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "2876dcf8-819e-46d6-8181-121b0342dffd",
+                "width": 65,
+                "x": 384,
+                "y": 376,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "Proxy2",
+                    "x": 3,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "Proxy2",
+                "node_id": "83bd650d-2222-44d7-92b5-60945580297c",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 512,
+                    "usage": "",
+                    "use_any_adapter": false,
+                    "vmname": "AsteriskDebian Clone"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "c3b2fead-9da0-4aaa-b405-432849fc94ed",
+                "width": 65,
+                "x": -469,
+                "y": 273,
+                "z": 1
             }
         ]
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.16",
+    "version": "2.2.17",
     "zoom": 71
 }
