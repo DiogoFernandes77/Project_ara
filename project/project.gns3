@@ -211,8 +211,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"117\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.2/30</text></svg>",
-                "x": 372,
-                "y": -99,
+                "x": 371,
+                "y": -93,
                 "z": 2
             },
             {
@@ -285,6 +285,51 @@
                 "svg": "<svg width=\"135\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">193.136.2.129/25</text></svg>",
                 "x": 581,
                 "y": 185,
+                "z": 2
+            },
+            {
+                "drawing_id": "99896fbe-82df-4b0a-ac92-867eb2fe01b7",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"95\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.9</text></svg>",
+                "x": 222,
+                "y": 179,
+                "z": 2
+            },
+            {
+                "drawing_id": "0367dbd1-7b1c-4bc0-bab3-e1b302620603",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"104\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">10.10.129.10</text></svg>",
+                "x": 224,
+                "y": 107,
+                "z": 2
+            },
+            {
+                "drawing_id": "36abec53-5788-4644-b18e-2675bcd2d344",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"257\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Genereal-Mili-193.136.201.121/25</text></svg>",
+                "x": 4,
+                "y": 289,
+                "z": 2
+            },
+            {
+                "drawing_id": "1f6f2583-ce7d-46d2-8cbe-11490f3bf6a8",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.2/30</text></svg>",
+                "x": 136,
+                "y": 263,
+                "z": 2
+            },
+            {
+                "drawing_id": "41ff4771-2661-43a4-b566-fe1ef614beb6",
+                "locked": false,
+                "rotation": 0,
+                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.1/30</text></svg>",
+                "x": -467,
+                "y": -278,
                 "z": 2
             }
         ],
@@ -857,8 +902,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": 23,
-                            "y": 60
+                            "x": -38,
+                            "y": -10
                         },
                         "node_id": "eb2f8120-13be-4228-b52a-9baa88037913",
                         "port_number": 0
@@ -1840,7 +1885,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
-                "x": 300,
+                "x": 298,
                 "y": -123,
                 "z": 1
             },
@@ -2274,8 +2319,8 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 93,
-                "y": 235,
+                "x": 46,
+                "y": 232,
                 "z": 1
             },
             {
@@ -2500,6 +2545,6 @@
     },
     "type": "topology",
     "variables": null,
-    "version": "2.2.17",
+    "version": "2.2.16",
     "zoom": 71
 }
