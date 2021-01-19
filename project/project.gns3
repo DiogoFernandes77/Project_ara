@@ -39,9 +39,9 @@
                 "drawing_id": "2181b3ee-8564-4375-b5c1-c5794fe1fecf",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"654\" height=\"794\"><rect width=\"654\" height=\"794\" fill=\"#e9b96e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
-                "x": 27,
-                "y": -416,
+                "svg": "<svg width=\"654\" height=\"770\"><rect width=\"654\" height=\"770\" fill=\"#e9b96e\" fill-opacity=\"1.0\" stroke-width=\"2\" stroke=\"#000000\" /></svg>",
+                "x": 59,
+                "y": -392,
                 "z": -1
             },
             {
@@ -85,8 +85,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg width=\"58\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">4.4.4.5</text></svg>",
-                "x": -52,
-                "y": 7,
+                "x": -54,
+                "y": 2,
                 "z": 2
             },
             {
@@ -309,7 +309,7 @@
                 "drawing_id": "36abec53-5788-4644-b18e-2675bcd2d344",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"257\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Genereal-Mili-193.136.201.121/25</text></svg>",
+                "svg": "<svg width=\"257\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">Genereal-Mili-193.136.201.129/25</text></svg>",
                 "x": 4,
                 "y": 289,
                 "z": 2
@@ -318,7 +318,7 @@
                 "drawing_id": "1f6f2583-ce7d-46d2-8cbe-11490f3bf6a8",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.2/30</text></svg>",
+                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.2/32</text></svg>",
                 "x": 136,
                 "y": 263,
                 "z": 2
@@ -327,7 +327,7 @@
                 "drawing_id": "41ff4771-2661-43a4-b566-fe1ef614beb6",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.1/30</text></svg>",
+                "svg": "<svg width=\"220\" height=\"25\"><text font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\" fill=\"#000000\" fill-opacity=\"1.0\">LoopBack0-193.136.202.1/32</text></svg>",
                 "x": -467,
                 "y": -278,
                 "z": 2
@@ -1210,7 +1210,7 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "template_id": "1966b864-93e7-32d5-965f-001384eec461",
                 "width": 72,
-                "x": 157,
+                "x": 173,
                 "y": -34,
                 "z": 1
             },
@@ -1267,8 +1267,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
-                "x": -55,
-                "y": -393,
+                "x": -50,
+                "y": -395,
                 "z": 1
             },
             {
@@ -1496,7 +1496,7 @@
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
                 "x": -539,
-                "y": -255,
+                "y": -256,
                 "z": 1
             },
             {
@@ -1564,7 +1564,7 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "42386314-2ec7-4beb-a049-02a7559b75d8",
                 "width": 66,
-                "x": 40,
+                "x": 31,
                 "y": -95,
                 "z": 1
             },
@@ -1828,8 +1828,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "3af7ddd8-7867-46f1-bc16-32b38deb5739",
                 "width": 66,
-                "x": 325,
-                "y": 74,
+                "x": 319,
+                "y": 75,
                 "z": 1
             },
             {
